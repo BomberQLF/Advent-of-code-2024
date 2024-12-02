@@ -56,7 +56,7 @@ To run the code, you need to have Node.js installed on your machine.
 
 - Each day’s solution is organized in its own folder (e.g., day1, day2, etc.), containing the relevant code files. The index.html serves as a starting point for running the solutions through a browser or an Express.js server configured via proxy.mjs.
 
-## Contribution
+## Contributing
 
 Contributions are welcome! If you have alternative solutions, optimizations, or other improvements, feel free to fork the repository and submit a pull request.
 
