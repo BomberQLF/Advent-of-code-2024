@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 import express from 'express';
-import cors from 'cors'; // Ajouter le module CORS
+import cors from 'cors';
 
 const app = express();
 
@@ -9,9 +9,9 @@ app.use(cors());
 
 app.get('/input', async (req, res) => {
     try {
-        const response = await fetch('https://adventofcode.com/2024/day/1/input', {
+        const response = await fetch('https://adventofcode.com/2024/day/2/input', {
             headers: {
-                'Cookie': 'session=53616c7465645f5f344aed353db7ba777dc297c1981f46343562839e8de0378a281b881e8a940881bd53ea4f08aba80fd7fb18b2ae639570db064235f3e577fb', // Remplacez par votre cookie
+                'Cookie': 'session=53616c7465645f5ff1134aa5bfd63eba5193da96bef129502bba7f4f30bc58fec2149b9912c9e243aced117e5a0488a5286adee2dc353b625bfb3df783d5c442', 
                 'User-Agent': 'Mozilla/5.0',
                 'Accept': 'text/plain'
             }

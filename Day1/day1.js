@@ -7,7 +7,7 @@
 fetch('http://localhost:3000/input')
     .then(response => response.text())
     .then(data => {
-        console.log(data);
+        // console.log(data);
 
         function traiterDonnees(data) {
             const [listeGauche, listeDroite] = data.trim().split('\n').map(ligne => {
@@ -25,15 +25,15 @@ fetch('http://localhost:3000/input')
             listeGauche.sort((a, b) => a - b);
             listeDroite.sort((a, b) => a - b);
 
-            console.log(listeGauche, listeDroite);
+            // console.log(listeGauche, listeDroite);
 
             let somme = 0;
             for (i = 0; i < listeGauche.length; i++) {
                 somme += Math.abs(listeGauche[i] - listeDroite[i]);
-                console.log(somme);
+                // console.log(somme);
             }
             
-            console.log("Somme totale des différences :" + somme);
+            // console.log("Somme totale des différences :" + somme);
         }
         
         
