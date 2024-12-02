@@ -69,4 +69,4 @@ Contributions are welcome! If you have alternative solutions, optimizations, or 
 
 ## License
 
-gitThis project is licensed under the MIT License. Feel free to use, modify, and share the code as per the license terms.
+This project is licensed under the MIT License. Feel free to use, modify, and share the code as per the license terms.
