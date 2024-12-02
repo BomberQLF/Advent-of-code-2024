@@ -9,8 +9,8 @@ Each day of the Advent of Code event, a new puzzle is unlocked, and this reposit
 - [About](#about)
 - [How to Use](#how-to-use)
 - [Installation](#installation)
-- [Daily Challenges](#daily-challenges)
-- [Contributing](#contributing)
+- [Daily Challenges](#Daily-challenges)
+- [Contributing](#Contributing)
 - [License](#license)
 
 ## About
@@ -23,3 +23,50 @@ You can browse through the code for each day’s challenge by navigating to the 
 
 ### Example of the structure:
 
+advent-of-code-2024/
+├── day1/
+│   ├── day1.js
+├── index.html
+├── proxy.mjs
+├── package.json
+├── package-lock.json
+├── README.md
+
+## Installation
+To run the code, you need to have Node.js installed on your machine.
+
+#### Clone the repository :
+
+- git clone https://github.com/BomberQLF/Advent-of-code-2024
+- cd advent-of-code-2024
+
+#### Install Dependencies: Ensure you have Node.js installed. Then run:
+
+- npm install
+
+#### Start the Server: Use the Express.js server (proxy.mjs) to run and test the code:
+
+- node proxy.mjs
+
+#### View in Browser: Open your browser and go to:
+
+- http://localhost:3000
+
+## Daily-challenges
+
+- Each day’s solution is organized in its own folder (e.g., day1, day2, etc.), containing the relevant code files. The index.html serves as a starting point for running the solutions through a browser or an Express.js server configured via proxy.mjs.
+
+## Contribution
+
+Contributions are welcome! If you have alternative solutions, optimizations, or other improvements, feel free to fork the repository and submit a pull request.
+
+### Steps to contribute
+
+- Fork the repository.
+- Create a new branch for your changes.
+- Commit your changes with clear descriptions.
+- Submit a pull request.
+
+## License
+
+gitThis project is licensed under the MIT License. Feel free to use, modify, and share the code as per the license terms.
